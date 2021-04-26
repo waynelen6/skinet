@@ -4,6 +4,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "strict": false,
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
@@ -18,6 +19,10 @@
     ]
   },
   "angularCompilerOptions": {
+    "strictInjectionParameters": false,
+    "strictInputAccessModifiers": false,
+    "strictTemplates": false,
+    "strictDomEventType": false,
     "enableI18nLegacyMessageIdFormat": false
   }
 }
